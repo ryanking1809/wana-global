@@ -1,0 +1,52 @@
+{
+  "name": "@ryki/wana-global",
+  "version": "0.3.0",
+  "description": "Global store backed by wana",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -cw",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanking1809/wana-global.git"
+  },
+  "keywords": [
+    "state",
+    "management",
+    "observable",
+    "wana",
+    "undo",
+    "persistence"
+  ],
+  "author": "Ryan King",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanking1809/wana-global/issues"
+  },
+  "homepage": "https://github.com/ryanking1809/wana-global#readme",
+  "prettier": {
+    "semi": false,
+    "trailingComma": "es5",
+    "singleQuote": true,
+    "jsxBracketSameLine": true,
+    "tabWidth": 2,
+    "printWidth": 120
+  },
+  "dependencies": {
+    "cuid": "^2.1.8",
+    "deserializable": "^0.3.3",
+    "wana": "^0.13.6"
+  },
+  "devDependencies": {
+    "rollup": "^2.7.2",
+    "rollup-plugin-terser": "^5.3.0"
+  }
+}
